@@ -1,32 +1,26 @@
-<<<<<<< HEAD
-peterbuban-ca
-=============
+# Portfolio page
 
-Personal website
-=======
-<<<<<<< HEAD
-# Foundation libsass template
-
-This is a template to start your own project that uses Grunt and libsass!
+This is my updated website portfolio using Foundation, Sass, Compass, Compass and Capistrano
 
 ## Requirements
 
 You'll need to have the following items installed before continuing.
 
-  * [Node.js](http://nodejs.org): Use the installer provided on the NodeJS website.
-  * [Grunt](http://gruntjs.com/): Run `[sudo] npm install -g grunt-cli`
-  * [Bower](http://bower.io): Run `[sudo] npm install -g bower`
+  * [Compass](http://compass-style.org/): required to compile sass into css, at runtime.
+  * [Git](http://git-scm.com/): To pull the repository`
 
 ## Quickstart
 
-```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
-npm install && bower install
+```
+git clone git@github.com:mighty-mouse/peterbuban-ca.git
+gem update --system
+gem install compass
+cd peterbuban-ca/
 ```
 
 While you're working on your project, run:
 
-`grunt`
+`compass watch`
 
 And you're set!
 
@@ -34,8 +28,3 @@ And you're set!
 
   * `scss/_settings.scss`: Foundation configuration settings go in here
   * `scss/app.scss`: Application styles go here
-=======
-peterbuban-ca
-=============
->>>>>>> 6c421ce6fe04b67bba0738b91fea5828b395da5a
->>>>>>> b71e5b7c1d453e27e56e9095235d4f7355067501

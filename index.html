@@ -7,20 +7,44 @@
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
 </head>
 <body>
-  <div class="row">
-    <div class="large-12 small-12 medium-12 fixed" id="nav_bar"><!-- or use contain-to-grid -->
-      <nav class="top-bar" data-topbar>
-        <ul id="navigation_list">
-          <li id="home">home</li>
-          <li id="portfolio">portfolio</li>
-          <li id="about">about</li>
-          <li id="contact">contact</li>
-        </ul>
-      </nav>
-    </div>
-  </div>
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <h1><a href="#">My Site</a></h1>
+      </li>
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="#">Home</a></li>
+        <li class=""><a href="#">About</a></li>
+        <li class=""><a href="#">Work</a></li>
+        <li class=""><a href="#">Contact</a></li>
+        <!--
+          <li class="has-dropdown">
+          <a href="#">Right Button with Dropdown</a>
+          <ul class="dropdown">
+            <li><a href="#">First link in dropdown</a></li>
+          </ul>
+        </li>
+        -->
+      </ul>
+
+      <!-- Left Nav Section -->
+      <!--
+      <ul class="left">
+        <li><a href="#">Left Nav Button</a></li>
+      </ul>
+      -->
+    </section>
+  </nav>
+
 
   <div class="row">
     <div class="large-12 small-12 medium-12 columns">

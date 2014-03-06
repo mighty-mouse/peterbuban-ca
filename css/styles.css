@@ -1,14 +1,14 @@
-/* line 6, ../scss/styles.scss */
+/* line 4, ../scss/styles.scss */
 #nav_bar {
   text-align: right;
 }
-/* line 9, ../scss/styles.scss */
+/* line 6, ../scss/styles.scss */
 #nav_bar ul#navigation_list {
   list-style-type: none;
   margin: 0;
   padding: 10px 0;
 }
-/* line 15, ../scss/styles.scss */
+/* line 12, ../scss/styles.scss */
 #nav_bar ul#navigation_list li {
   position: relative;
   right: 10px;

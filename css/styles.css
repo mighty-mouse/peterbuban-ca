@@ -1,18 +1,5 @@
 /* line 4, ../scss/styles.scss */
-#nav_bar {
-  text-align: right;
-}
-/* line 6, ../scss/styles.scss */
-#nav_bar ul#navigation_list {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px 0;
-}
-/* line 12, ../scss/styles.scss */
-#nav_bar ul#navigation_list li {
-  position: relative;
-  right: 10px;
-  color: #fff;
-  display: inline;
-  padding: 0 20px 0 0;
+#navigation-bar {
+  background: #333333;
+  width: 100%;
 }

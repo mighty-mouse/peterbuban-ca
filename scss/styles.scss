@@ -1,7 +1,18 @@
 @import "_settings";
 @import "foundation/_functions";
 
-#navigation-bar {
+#header {
+    height: 125px;
     width: 100%;
-    background: #3A9DDF;
+    background: #333333;
+    h1 {
+        font-size: 50pt;
+        color: #fff;
+    }
+}
+#navigation-bar {
+    position: relative;
+    //top:125px;
+    width: 100%;
+    background: #333333;
 }

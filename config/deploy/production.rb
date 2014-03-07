@@ -26,7 +26,7 @@ server 'peterbuban.ca', user: 'deploy', roles: %w{web app}, my_property: :my_val
 #    auth_methods: %w(password)
 #  }
 # and/or per server
- server 'example.com',
+ server 'peterbuban.ca',
    user: 'pmbuban',
    roles: %w{web app},
    ssh_options: {

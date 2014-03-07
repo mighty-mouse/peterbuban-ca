@@ -1,5 +1,18 @@
 /* line 4, ../scss/styles.scss */
-#navigation-bar {
+#header {
+  height: 125px;
   width: 100%;
-  background: #3A9DDF;
+  background: #333333;
+}
+/* line 8, ../scss/styles.scss */
+#header h1 {
+  font-size: 50pt;
+  color: #fff;
+}
+
+/* line 13, ../scss/styles.scss */
+#navigation-bar {
+  position: relative;
+  width: 100%;
+  background: #333333;
 }
